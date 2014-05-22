@@ -20,3 +20,10 @@ will be output in json as follows:
 
 I'm using the above design structure to ensure that all object within the json can be directly referenced with a primary key
 
+USAGE
+=====
+Suppose you have a file input.csv, to convert it to JSON,
+
+python json_conv.py input.csv
+
+If you want to direct the output, simply use redirection, python json_conv.py input.csv >> output.csv
